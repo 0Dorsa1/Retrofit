@@ -1,7 +1,7 @@
 package com.example.retrofittest1.model
 
 data class Result(
-    val _id: String,
+    val id: String,
     val author: String,
     val authorSlug: String,
     val content: String,

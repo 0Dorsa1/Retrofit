@@ -6,8 +6,5 @@ import retrofit2.http.GET
 interface QuotesAPI {
     @GET("quotes") // Replace "quotes" with the actual endpoint path
     suspend fun getQuote(): Response<QuoteList>
-
-
-
 }
 
